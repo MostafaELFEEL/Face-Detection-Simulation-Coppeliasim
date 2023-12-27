@@ -35,11 +35,9 @@ Make sure to change **<Path_to_Coppeliasim_Folder>** with Coppeliasim folder pat
 2. Execute the Python script for face detection:
 
 ```bash
-cd ~/ros2_ws && ros2 run face_detection face_detection
+cd && ros2 run face_detection face_detection
 ```
 
 ## Results:
 
 ![image](https://github.com/MostafaELFEEL/Face-Detection-Simulation-Coppeliasim/assets/106331831/0a4e287a-362b-4202-828c-537a7febc472)
-
-
