@@ -9,7 +9,7 @@ import os
 class FaceDetector(Node):
     def __init__(self):
         super().__init__("face_detector_node")
-        path = os.path.abspath('') + 'ros2_ws/src/face_detection/face_detection/haar/haarcascade_frontalface_default.xml'
+        path = os.path.abspath('') + '/ros2_ws/src/face_detection/face_detection/haar/haarcascade_frontalface_default.xml'
         self.face_cascade = cv2.CascadeClassifier(path)
         self.subscriber = self.create_subscription(Image, "camera/image_raw", self.callback, 10)
 
