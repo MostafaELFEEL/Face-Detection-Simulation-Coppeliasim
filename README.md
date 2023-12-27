@@ -32,10 +32,10 @@ cd ~/<Path_to_Coppeliasim_Folder> && ./coppeliaSim.sh
 ```
 Make sure to change **<Path_to_Coppeliasim_Folder>** with Coppeliasim folder path.
 
-2. Execute the Python script for face detection integration with CoppeliaSim.
+2. Execute the Python script for face detection:
 
 ```bash
-ros2 run face_detection face_detection
+cd ros2_ws && ros2 run face_detection face_detection
 ```
 
 ## Results:
